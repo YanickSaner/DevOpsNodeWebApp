@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Render aktiviert von Yanick!!!');
+  res.send('Die letzten Tage von meinem Surface...');
 });
 
 app.listen(PORT, HOST);
